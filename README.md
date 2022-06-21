@@ -3,4 +3,4 @@
 Artwork with JavaScript and creative coding.
 
 # Sheep
-![alt text](https://github.com/079024/JavaScript-Art/blob/main/sheep.gif?raw=true)
+![alt text](https://github.com/079035/JavaScript-Art/blob/main/sheep.gif?raw=true)
