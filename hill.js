@@ -21,7 +21,7 @@ export class Hill {
   }
 
   draw(ctx) {
-    ctx.fileStyle = this.color;
+    ctx.fillStyle = this.color;
     ctx.beginPath();
 
     let cur = this.points[0];
@@ -39,7 +39,7 @@ export class Hill {
 
       const cx = (prev.x + cur.x) / 2;
       const cy = (prev.y + cur.y) / 2;
-      ctx.quadraticCurveTo(prev.x, prev.y, cx, dy);
+      ctx.quadraticCurveTo(prev.x, prev.y, cx, cy);
 
       dots.push({
         x1: prevCx,
@@ -56,7 +56,7 @@ export class Hill {
     }
 
     ctx.lineTo(prev.x, prev.y);
-    ctx.lintTo(this.stageWidth, this.stageHeight);
+    ctx.lineTo(this.stageWidth, this.stageHeight);
     ctx.lineTo(this.points[0].x, this.stageHeight);
     ctx.fill();
 

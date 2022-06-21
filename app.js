@@ -9,12 +9,12 @@ class App {
     document.body.appendChild(this.canvas);
 
     this.hills = [
-      new Hill('#fd6bea', 0.2, 12),
-      new Hill('#ff59c2', 0.5, 8),
-      new Hill('#ff4674', 1.4, 6)
+      new Hill("#fd6bea", 0.2, 12),
+      new Hill("#ff59c2", 0.5, 8),
+      new Hill("#ff4674", 1.4, 6),
     ];
 
-    window.addEventListener('resize', this.resize.bind(this), false);
+    window.addEventListener("resize", this.resize.bind(this), false);
     this.resize();
 
     requestAnimationFrame(this.animate.bind(this));
