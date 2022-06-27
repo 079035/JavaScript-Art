@@ -7,3 +7,6 @@ Artwork with JavaScript and creative coding.
 
 # Wave
 ![alt text](https://github.com/079035/JavaScript-Art/blob/main/Wave/wave.gif?raw=true)
+
+# Kinetic Typography
+![alt text](https://github.com/079035/JavaScript-Art/blob/main/Kinetic%20Typography/kinetic.gif?raw=true)
